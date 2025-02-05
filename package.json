@@ -1,0 +1,44 @@
+{
+  "name": "egg-casl-example",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "@casl/ability": "^6.7.3",
+    "@casl/mongoose": "^8.0.3",
+    "egg": "^1.10.1",
+    "egg-router-plus": "^2.0.0",
+    "egg-validate": "^1.0.0",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.3.5",
+    "egg-mock": "^3.13.1",
+    "axios": "^0.21.0",
+    "bdd-lazy-var": "^2.6.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nodemon": "^1.17.5",
+    "typescript": "5.7.3"
+  },
+  
+  
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "debug": "egg-bin debug",
+    "start": "eggctl start",
+    "dev": "egg-bin dev",
+    "test": "npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "license": "MIT"
+}

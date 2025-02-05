@@ -1,0 +1,259 @@
+{
+  "keys": "/Users/waylon/code/egg-casl-example/config/config.default.js",
+  "middleware": "/Users/waylon/code/egg-casl-example/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/waylon/code/egg-casl-example/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/waylon/code/egg-casl-example/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/waylon/code/egg-casl-example/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/waylon/code/egg-casl-example/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/waylon/code/egg-casl-example/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/waylon/code/egg-casl-example/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/waylon/code/egg-casl-example/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/waylon/code/egg-casl-example/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/waylon/code/egg-casl-example/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/waylon/code/egg-casl-example/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/waylon/code/egg-casl-example/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/waylon/code/egg-casl-example/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/waylon/code/egg-casl-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/waylon/code/egg-casl-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/waylon/code/egg-casl-example/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/waylon/code/egg-casl-example/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/waylon/code/egg-casl-example/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/waylon/code/egg-casl-example/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/waylon/code/egg-casl-example/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/waylon/code/egg-casl-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/waylon/code/egg-casl-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/waylon/code/egg-casl-example/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/waylon/code/egg-casl-example/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/waylon/code/egg-casl-example/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/waylon/code/egg-casl-example/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/waylon/code/egg-casl-example/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/waylon/code/egg-casl-example/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/waylon/code/egg-casl-example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/waylon/code/egg-casl-example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/waylon/code/egg-casl-example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/waylon/code/egg-casl-example/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/waylon/code/egg-casl-example/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/waylon/code/egg-casl-example/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/waylon/code/egg-casl-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/waylon/code/egg-casl-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/waylon/code/egg-casl-example/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/waylon/code/egg-casl-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/waylon/code/egg-casl-example/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/waylon/code/egg-casl-example/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/waylon/code/egg-casl-example/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/waylon/code/egg-casl-example/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/waylon/code/egg-casl-example/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/waylon/code/egg-casl-example/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/waylon/code/egg-casl-example/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/waylon/code/egg-casl-example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/waylon/code/egg-casl-example/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/waylon/code/egg-casl-example/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/waylon/code/egg-casl-example/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/waylon/code/egg-casl-example/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+  "name": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "version": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "description": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "private": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "@casl/ability": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "@casl/mongoose": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "egg": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "egg-router-plus": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "mongoose": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "axios": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "bdd-lazy-var": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "chai": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "mocha": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "nodemon": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "debug": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "start": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "dev": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "test": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "cov": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "lint": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "ci": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "autod": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+    },
+    "license": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "strict": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "depth": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "env": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "level": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "coreMiddleware": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "port": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/waylon/code/egg-casl-example/node_modules/egg/config/config.default.js"
+  }
+}

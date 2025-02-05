@@ -1,0 +1,56 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/a",
+    "regexp": "/^\\/a(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/b",
+    "regexp": "/^\\/b(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/c",
+    "regexp": "/^\\/c(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "anonymous"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/__loader_trace__",
+    "regexp": "/^\\/__loader_trace__(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous"
+    ]
+  }
+]
