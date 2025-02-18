@@ -17,7 +17,7 @@
     "axios": "^0.21.0",
     "bdd-lazy-var": "^2.6.0",
     "chai": "^4.2.0",
-    "mocha": "^8.2.1",
+    "mocha": "^11.1.0",
     "nodemon": "^1.17.5",
     "typescript": "5.7.3"
   },
